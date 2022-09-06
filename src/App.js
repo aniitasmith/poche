@@ -2,11 +2,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <div className='Screen'> 
+    <div className='app'>
+      <div className='screen'> 
       hola, estoy centradito
       </div>
-    
     </div>
   );
 }
