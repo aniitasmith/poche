@@ -1,0 +1,22 @@
+.App {
+  height: 100vh;
+  background-color: #bebebe;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Screen {
+  width: 400px;
+  height: 94vh;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:white;
+  border: 5px solid #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
