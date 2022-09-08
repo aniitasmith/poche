@@ -1,0 +1,18 @@
+.button-menu{
+    padding: 30px 30px 10px 30px ;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    color: rgb(39, 41, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    user-select: none;
+}
+
+.active{
+    color: #5a01a7;
+    border-bottom: 3px solid #5a01a7;
+}
