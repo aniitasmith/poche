@@ -4,8 +4,8 @@ import Footer from '../Footer/Footer';
 
 const Home = () => (
 <div className='home'>
-        <Header></Header>
-        <Footer></Footer>
+  <Header></Header>
+  <Footer></Footer>
 </div>
 );
 
