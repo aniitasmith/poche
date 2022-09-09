@@ -1,11 +1,10 @@
 import './App.css';
+import Home from './componentes/Home/Home.js';
 
 function App() {
   return (
     <div className='app'>
-      <div className='screen'> 
-      hola, estoy centradito
-      </div>
+      <Home></Home>
     </div>
   );
 }
