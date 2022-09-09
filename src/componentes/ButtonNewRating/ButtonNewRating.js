@@ -5,7 +5,7 @@ import { AiOutlinePlus } from 'react-icons/ai';
 const ButtonNewRating = (props) => (
   <div 
   className='button-new-rating'
-  onClick={props.createRating}>
+  onClick={console.log('hola')}>
     <AiOutlinePlus className='img-new-rating'/>
     {props.children}
   </div>
