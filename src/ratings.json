@@ -5,7 +5,7 @@
     "address": "Av. Olazábal 4691, C1431",
     "city": "CABA",
     "country": "Argentina",
-    "rating": [
+    "ratings": [
       {
         "id": 0,
         "rating": 10,
@@ -26,7 +26,7 @@
     "address": "Mendoza 5305",
     "city": "Buenos Aires",
     "country": "Argentina",
-    "rating": [
+    "ratings": [
       {
       "id": 1,
       "rating": 10,
@@ -45,7 +45,7 @@
     "address": "Ávalos 2098, C1431",
     "city": "Buenos Aires",
     "country": "Argentina",
-    "rating": [
+    "ratings": [
       {
         "id": 2,
         "rating": 5,
@@ -64,7 +64,7 @@
     "address": "Av Triunvirato 4307, C1431",
     "city": "Buenos Aires",
     "country": "Argentina",
-    "rating": [
+    "ratings": [
       {
         "id": 3,
         "rating": 8,
@@ -83,7 +83,7 @@
     "address": "106 Front street",
     "city": "Toronto, ON",
     "country": "Canada",
-    "rating": [
+    "ratings": [
         {
         "id": 4,
         "rating": 10,
@@ -102,7 +102,7 @@
     "address": "22 Sackville street",
     "city": "Toronto, ON",
     "country": "Canada",
-    "rating": [
+    "ratings": [
         {
         "id": 5,
         "rating": 8,

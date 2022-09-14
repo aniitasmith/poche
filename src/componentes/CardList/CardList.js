@@ -5,7 +5,7 @@ import Card from "../card/card";
 function CardList(props) {
 
   const cardMap = ratings.map( 
-    (rating) => <Card rating={rating}></Card>
+    (local) => <Card local={local}></Card>
   );
 
   return ( <> {cardMap} </> )
