@@ -1,0 +1,118 @@
+[
+  {
+    "id": 0,
+    "name": "the brunchful",
+    "address": "Av. Olazábal 4691, C1431",
+    "city": "CABA",
+    "country": "Argentina",
+    "ratings": [
+      {
+        "id": 0,
+        "rating": 10,
+        "reviewerId": 195,
+        "comment": "",
+        "category": {
+          "name": "desayuno",
+          "units": "poche",
+          "min": 0,
+          "max": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "le ble urquiza",
+    "address": "Mendoza 5305",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "ratings": [
+      {
+      "id": 1,
+      "rating": 10,
+      "category": {
+        "name": "poche",
+        "units": "poche",
+        "min": 0,
+        "max": 10
+      }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "tea connection",
+    "address": "Ávalos 2098, C1431",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "ratings": [
+      {
+        "id": 2,
+        "rating": 5,
+        "category": {
+          "name": "poche",
+          "units": "poche",
+          "min": 0,
+          "max": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "usina cafetera",
+    "address": "Av Triunvirato 4307, C1431",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "ratings": [
+      {
+        "id": 3,
+        "rating": 8,
+        "category": {
+          "name": "poche",
+          "units": "poche",
+          "min": 0,
+          "max": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "cora",
+    "address": "106 Front street",
+    "city": "Toronto, ON",
+    "country": "Canada",
+    "ratings": [
+        {
+        "id": 4,
+        "rating": 10,
+        "category": {
+          "name": "poche",
+          "units": "poche",
+          "min": 0,
+          "max": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "terroni sud forno",
+    "address": "22 Sackville street",
+    "city": "Toronto, ON",
+    "country": "Canada",
+    "ratings": [
+        {
+        "id": 5,
+        "rating": 8,
+        "category": {
+          "name": "lunch",
+          "units": "poche",
+          "min": 0,
+          "max": 10
+        }
+      }
+    ]
+  }
+]
