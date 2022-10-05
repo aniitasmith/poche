@@ -2,8 +2,11 @@ import React from "react";
 import { AiFillStar} from 'react-icons/ai';
 import './card.css';
 import Location from "../location/Location";
+import average from "../../lib/averageFuntion";
 
 function Card({ local: {name, city, country, ratings} }) {
+
+const ratingsForLocal = ratings.map((rating) => rating.value);
   
  return (
     <div className='card'>
@@ -14,7 +17,7 @@ function Card({ local: {name, city, country, ratings} }) {
       </div>
       <div className='rating-container'>
         <AiFillStar className='star'></AiFillStar>
-        <div className='rating'> {ratings[0].rating.toFixed(1)} </div>
+        <div className='rating'> {average(ratingsForLocal).toFixed(1)} </div>
       </div>
     </div>
   ) 
