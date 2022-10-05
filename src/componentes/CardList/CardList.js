@@ -6,6 +6,7 @@ import '../CardList/cardList.css';
 function CardList(props) {
   const filterRatings = ratings.filter( 
     (local) => local.ratings[0].category.name === props.category)
+    
   const cardMap = filterRatings.map( 
     (local) => <Card local={local}></Card>
   ); 
