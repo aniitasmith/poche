@@ -8,7 +8,30 @@
     "ratings": [
       {
         "id": 0,
-        "rating": 1.9,
+        "value": 1.9,
+        "reviewerId": 195,
+        "comment": "",
+        "category": {
+          "name": "breakfast",
+          "units": "poche",
+          "min": 0,
+          "max": 5
+        }
+      },
+      {
+        "id": 6,
+        "value": 3.4,
+        "reviewerId": 195,
+        "comment": "",
+        "category": {
+          "name": "breakfast",
+          "units": "poche",
+          "min": 0,
+          "max": 5
+        }
+      },{
+        "id": 7,
+        "value": 4.5,
         "reviewerId": 195,
         "comment": "",
         "category": {
@@ -18,6 +41,7 @@
           "max": 5
         }
       }
+
     ]
   },
   {
@@ -29,7 +53,7 @@
     "ratings": [
       {
       "id": 1,
-      "rating": 5,
+      "value": 5,
       "category": {
         "name": "breakfast",
         "units": "poche",
@@ -48,7 +72,7 @@
     "ratings": [
       {
         "id": 2,
-        "rating": 5,
+        "value": 5,
         "category": {
           "name": "lunch",
           "units": "poche",
@@ -67,7 +91,7 @@
     "ratings": [
       {
         "id": 3,
-        "rating": 4,
+        "value": 4,
         "category": {
           "name": "dinner",
           "units": "poche",
@@ -86,7 +110,7 @@
     "ratings": [
         {
         "id": 4,
-        "rating": 5,
+        "value": 5,
         "category": {
           "name": "breakfast",
           "units": "poche",
@@ -105,7 +129,7 @@
     "ratings": [
         {
         "id": 5,
-        "rating": 4,
+        "value": 4,
         "category": {
           "name": "lunch",
           "units": "poche",
