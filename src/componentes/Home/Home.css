@@ -10,3 +10,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.content{
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}

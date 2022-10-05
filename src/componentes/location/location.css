@@ -3,9 +3,9 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  height: 70px;
-  width: 70px;
-  background-color: #fafafa;
+  height: 60px;
+  width: 60px;
+  background-color: #e9e5e5;
   border-radius: 50px;
     -webkit-border-radius: 50%;
 }

@@ -1,0 +1,26 @@
+.top-list{
+  width: 89%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.title-list{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: rgb(39, 41, 46);
+  text-transform: capitalize;
+  align-self: initial;
+}
+
+.all-list{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: rgb(75, 114, 212);
+
+}
+
