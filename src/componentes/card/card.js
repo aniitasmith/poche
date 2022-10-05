@@ -14,7 +14,7 @@ function Card({ local: {name, city, country, ratings} }) {
       </div>
       <div className='rating-container'>
         <AiFillStar className='star'></AiFillStar>
-        <div className='rating'> {ratings[0].rating} </div>
+        <div className='rating'> {ratings[0].rating.toFixed(1)} </div>
       </div>
     </div>
   ) 
