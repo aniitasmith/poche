@@ -20,10 +20,11 @@
 .rating {
   position: absolute;
   top: 32.5%;
-  left: 34%;
+  left: 30.5%;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+  font-size: 16px;
+}
 
 .card-text {
   line-height: 4px;
