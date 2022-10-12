@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillStar} from 'react-icons/ai';
 import './card.css';
 import Location from "../location/Location";
-import average from "../../lib/averageFuntion";
+import average from "../../lib/averageFunction";
 
 function Card({ local: {name, city, country, ratings} }) {
 

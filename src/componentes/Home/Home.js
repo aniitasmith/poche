@@ -7,7 +7,7 @@ import '../Home/Home.css';
 
 const Home = () => (
 <div className='home'>
-  <Header></Header>
+  <Header page="home"></Header>
   <SearchBar></SearchBar>
   <div className='content'>
     <CardList category="breakfast"></CardList>
