@@ -1,12 +1,17 @@
 import React from 'react';
 import './header.css';
 import ButtonNewRating from '../ButtonNewRating/ButtonNewRating.js';
+import ButtonBackHeader  from '../ButtonBackHeader/ButtonBackHeader.js'
 
-const Header = () => (
-  <div className='header'>
-    <div className='main-title'> Poché </div>
-    <ButtonNewRating> New Rating </ButtonNewRating>
-  </div>
-);
+const Header = (props) => {
 
+  return (
+    <div className='header'>
+      {props.page === 'home' ? <div className='main-title'> Poche </div> : null }
+      {props.page === 'LocalProfile' ? <ButtonBackHeader></ButtonBackHeader> : null }
+      <ButtonNewRating> New Rating </ButtonNewRating>
+    </div>
+  )
+
+};
 export default Header;
