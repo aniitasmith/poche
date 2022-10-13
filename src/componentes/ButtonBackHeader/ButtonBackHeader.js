@@ -6,7 +6,7 @@ const ButtonBackHeader = (props) => (
   <div 
   className='button-back-header'
   onClick={console.log(' ')}>
-    <IoChevronBackOutline className='img-back'/>
+    <IoChevronBackOutline className='img-chevron-button-back'/>
     {props.children}
   </div>
 );    

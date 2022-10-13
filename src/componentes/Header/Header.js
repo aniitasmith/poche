@@ -4,25 +4,14 @@ import ButtonNewRating from '../ButtonNewRating/ButtonNewRating.js';
 import ButtonBackHeader  from '../ButtonBackHeader/ButtonBackHeader.js'
 
 const Header = (props) => {
-  let headerButton;
-
-  switch(props.page){
-    case 'home':
-      headerButton = <div className='main-title'> Poche </div>
-      break;
-    case 'LocalProfile':
-      headerButton = <ButtonBackHeader></ButtonBackHeader>
-      break;
-    default:
-      headerButton = null;
-      break;
-  }
 
   return (
     <div className='header'>
-      {headerButton}
+      {props.page === 'home' ? <div className='main-title'> Poche </div> : null }
+      {props.page === 'LocalProfile' ? <ButtonBackHeader></ButtonBackHeader> : null }
       <ButtonNewRating> New Rating </ButtonNewRating>
     </div>
-  );
+  )
+
 };
 export default Header;
